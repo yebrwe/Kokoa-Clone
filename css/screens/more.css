@@ -1,0 +1,52 @@
+.more-screen {
+    margin: 0 25px;
+}
+.more-screen .icon-row{
+    margin-top: 35px;
+}
+
+.more-suggestion {
+    border-top: var(--main-border);
+    padding: 20px 0;
+    
+}
+
+.more-suggestion__title {
+    margin-bottom: 20px;
+}
+
+.more-suggestion__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.more-suggestion__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.more-suggestion__icon-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.more-suggestion__icon-image i {
+    font-size: 32px;
+    color: white;
+}
+
+.more-suggestion__icon-text {
+    color: rgb(0,0,0,0.5)
+}

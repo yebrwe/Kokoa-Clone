@@ -1,0 +1,46 @@
+#friends-display-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: dimgray;
+    margin: 5px;
+    height: 35px;
+    background-color: snow;
+    padding: 3px 0px;
+    margin-top: -15px;
+}
+#friends-display-link > i{
+    margin: 0 10px;
+    color: rgb(0,0,0,0.2);
+}
+
+.friends-screen__channel {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+
+@keyframes hideSplash{
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+#splash-screen {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    animation: hideSplash 0.4s ease-in-out forwards;
+    animation-delay: 0.4s;
+
+
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi fa-sm"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <i class="fas fa-battery-quarter fa-sm"></i>
+            <i class="fas fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="far fa-comment-dots"></i></span>
+            <span><i class="fas fa-music"></i></span>
+            <span><i class="fas fa-cog"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar" src="https://i.insider.com/5d71401f6f24eb04b07dbdf3?width=700" alt="">
+                <div class="user-component__text">
+                    <span class="user-component__title"><a href="chat.html">KokoaTalk</a></span>
+                    <span class="user-component__sub-title"><a href="chat.html">Please check My Kakao Account Info</a></span>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">21:22</span>
+                <span class="badge">1</span>
+            </div>
+        </div>
+    </main>
+    <nav class="nav">
+        <ul class="nav_list">
+            <li class="nav_btn">
+                <a class="nav_link" href="friends.html">
+                    <i class="far fa-user fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav_link" href="chats.html">
+                    <i class="fas fa-comment fa-lg"></i>
+                    <span class="badge">1</span>
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav_link" href="find.html">
+                    <i class="fas fa-search fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav_link" href="more.html">
+                    <i class="fas fa-ellipsis-h fa-lg"></i>
+                    <span class="badge-point"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <span>Your screen too big...</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/bdf17ae054.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

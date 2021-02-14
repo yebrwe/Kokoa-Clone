@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi fa-sm"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <i class="fas fa-battery-quarter fa-sm"></i>
+            <i class="fas fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html">
+                <i class="fas fa-chevron-left fa-lg"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">Settings</div>
+        <div class="alt-header__column"><i class="fas fa-search fa-lg"></i></div>
+    </header>
+
+    <main class="settings-screen">
+        <ul class="settings">
+            <li class="settings__item">
+                <div class="settings__item-column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notices</span>
+                </div>
+                <div class="settings__item-column">
+                    Latest Version
+                </div>
+            </li>
+            <li class="settings__item">
+                <div class="settings__item-column">
+                    <i class="fas fa-flask"></i>
+                    <span>Kokoa Lab</span>
+                </div>
+                <div class="settings__item-column"></div>
+            </li>
+            <li class="settings__item">
+                <div class="settings__item-column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Version</span>
+                </div>
+                <div class="settings__item-column"></div>
+            </li>
+        </ul>
+    </main>
+    <nav class="nav">
+        <ul class="nav_list">
+            <li class="nav_btn">
+                <a class="nav_link" href="friends.html">
+                    <i class="far fa-user fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav_link" href="chats.html">
+                    <i class="far fa-comment fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav_link" href="find.html">
+                    <i class="fas fa-search fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav_link" href="more.html">
+                    <i class="fas fa-ellipsis-h fa-lg"></i>
+                    <span class="badge-point"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <span>Your screen too big...</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/bdf17ae054.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
